@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-url: "lassearpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+url: "http://lassearpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:year/:month/:day/:title/
+environment: prod
 # Build settings
 # theme: minima
 plugins:
