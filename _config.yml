@@ -25,10 +25,10 @@ environment: prod
 # Build settings
 # theme: minima
 plugins:
-  - jekyll-scholar
-  - jekyll-sitemap
+  # - jekyll-scholar
+  # - jekyll-sitemap
   - jekyll-feed
-  - jekyll-katex
+  # - jekyll-katex
 
 # Exclude from processing.
 # The following items will not be processed, by default.
