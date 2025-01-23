@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 
-# url: "https://lassearpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "lassearpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:year/:month/:day/:title/
 environment: prod
 # Build settings
