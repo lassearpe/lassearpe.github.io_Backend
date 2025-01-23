@@ -1,11 +1,45 @@
 ---
-layout: default
+title: blog
 ---
 
-###### Dette er en test. 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lasse Arpe Kristensen</title>
 
-Dette er en anden test. 
+<meta name="description" content="Lasse Arpe Kristensen is a computer science student in Denmark." />
 
-*Dette er en tredje test*
+<meta name="keywords" content="computer science, machine learning">
+<meta name="author" content="Lasse Arpe Kristensen">
+<link rel="stylesheet" href="assets/main.css"/>
+<!-- <link rel="shortcut icon" href="/favicon.png?v=e"> -->
+</head>
 
-Virk... nu... bare....
+<body>
+
+
+<div id='posts' class='section'>
+    {% for post in site.posts %}
+        <div class='post-row'>
+            <p class='post-title'>
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </p>
+            <p class='post-date'>
+                {{ post.date | date_to_long_string }}
+            </p>
+        </div>
+        <p class='post-subtitle'>
+            {{ post.subtitle }}
+        </p>
+    {% endfor %}
+</div>
+
+
+    
+
+</body>
+
+</html>
+
