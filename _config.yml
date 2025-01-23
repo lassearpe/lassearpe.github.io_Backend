@@ -20,11 +20,12 @@
 
 
 url: "lassearpe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /blog/:year/:month/:day/:title/
+# permalink: /blog/:year/:month/:day/:title/
+# baseurl: /lassearpe.github.io
 environment: prod
 # Build settings
 # theme: minima
-plugins:
+plugins: 
   # - jekyll-scholar
   # - jekyll-sitemap
   - jekyll-feed

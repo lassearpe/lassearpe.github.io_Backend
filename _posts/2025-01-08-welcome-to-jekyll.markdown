@@ -1,5 +1,5 @@
 ---
-layout: post
+# layout: post
 title:  "Welcome to Jekyll!"
 date:   2025-01-08 20:45:12 +0100
 categories: jekyll update
