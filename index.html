@@ -56,18 +56,23 @@ title: blog
         <div id='posts' class='section'>
             {% for post in site.posts %}
                 <div class='post-row'>
+                    <div class="col-md-1">
+                        <p class='post-date'>
+                            {{ post.date | date_to_long_string }}
+                        </p>
+                    </div>
+                    <div class="col-md-12">
                     <p class='post-title'>
                         <a href="{{ post.url }}">
                             {{ post.title }}
                         </a>
                     </p>
-                    <p class='post-date'>
-                        {{ post.date | date_to_long_string }}
-                    </p>
+
                 </div>
                 <p class='post-subtitle'>
                     {{ post.subtitle }}
                 </p>
+            </div>
             {% endfor %}
         </div>
     </div>
