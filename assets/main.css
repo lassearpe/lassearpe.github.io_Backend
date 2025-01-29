@@ -17,8 +17,8 @@ dl, dd, ol, ul, figure {
 body {
   
   color: rgba(0, 0, 0, 0.8);
-  /* font-family: "Inter", serif; */
-  font-family: -apple-system, Helvetica, arial, sans-serif;
+  font-family: "Inter", serif;
+  /* font-family: -apple-system, Helvetica, arial, sans-serif; */
   font-size: 18px;
   margin: 7px; 
   padding: 0;
