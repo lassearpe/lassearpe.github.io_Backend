@@ -89,12 +89,12 @@ body {
   width: 100px;
   margin-bottom: -24px;
 }
-#blog #y2017.year,
+/* #blog #y2017.year,
 .tag-page #y2017.year,
 #blog #y2018.year,
 .tag-page #y2018.year {
   margin-top: 0px;
-}
+} */
 #blog ul#tag-nav,
 .tag-page ul#tag-nav {
   padding: 0 0 30px 0;
