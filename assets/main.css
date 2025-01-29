@@ -18,41 +18,17 @@ body {
   
   color: rgba(0, 0, 0, 0.8);
   font-family: "Inter", serif;
-  /* font-family: -apple-system, Helvetica, arial, sans-serif; */
   font-size: 16px;
   margin: 7px; 
   padding: 0;
 
-  #landing {
-    max-width: 700px;
-    margin: 119px auto;
-  }
-
-  #landing ul#links {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0 0 20px 0;
-  }
-  #landing ul#links li {
-    font-family: -apple-system, Helvetica, arial, sans-serif;
-    /* font-family: "Inter", serif; */
-    margin-right: 25px;
-    padding-bottom: 5px;
-  }
-  #landing ul#links li a:hover {
-    text-decoration: none;
-  }
-  #landing ul#links li#contact {
-    font-family: courier;
-    margin: 0;
-    padding-top: 5px;
-  }
-  #landing .section ul {
-    padding-left: 15px;
-  }
-  
-
 }
+
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 
 a {
 	color: rgba(0, 0, 0, 0.8);
