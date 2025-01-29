@@ -55,7 +55,9 @@ title: blog
     <div id='blog' class='wrap'>
         <div id='posts' class='section'>
             {% for post in site.posts %}
-                <div class='post-row'>
+                <!-- <div class='post-row'> -->
+                    <div class='row'>
+
                     <div class="col-md-4">
                         <p class='post-date'>
                             {{ post.date | date_to_string }}
