@@ -1,5 +1,5 @@
 ---
-# layout: post
+layout: default
 title:  "Dette er en test!"
 date:   2025-01-08 17:12:00 +0100
 categories: test
