@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html {
-    font-family: -apple-system, Helvetica, arial, sans-serif;
+    font-family: "Inter", serif;
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.5em;
     -ms-text-size-adjust: 100%;
@@ -9,6 +11,12 @@ html {
 body {
     margin: 0;  
 }
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 body .content {
     margin-bottom: 120px;
 }
@@ -37,10 +45,7 @@ h1 {
 .hidden {
     display: none;
 }
-.wrap {
-    max-width: 700px;
-    margin: 0 auto;
-}
+
 .mono {
     font-family: monospace;
 }
@@ -204,6 +209,7 @@ line-height: 1.2em;
 .article ul {
     padding: 0 15px;
 }
+
 #bibliography {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -213,103 +219,105 @@ padding-top: 30px;
 font-size: 12px;
 color: rgba(0, 0, 0, 0.5);
 }
+
 #blog,
 .tag-page {
-margin-top: 80px;
-margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 #blog #intro,
 .tag-page #intro {
-font-size: 14px;
-font-style: italic;
-line-height: 1.4em;
-margin-bottom: 40px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 40px;
 }
 #blog .quote,
 .tag-page .quote {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 #blog .quote p,
 .tag-page .quote p {
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 #blog .post-date,
 .tag-page .post-date {
-text-transform: uppercase;
-color: rgba(0, 0, 0, 0.7);
-font-size: 12px;
-font-weight: bold;
-margin-top: 4px;
-margin-bottom: 4px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 #blog .post-title,
 .tag-page .post-title {
-display: inline-block;
-font-weight: bold;
-margin-bottom: 0;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 #blog .post-title a,
 .tag-page .post-title a {
-font-size: 18px;
-text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
 }
 #blog .post-title a:hover,
 .tag-page .post-title a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 #blog .post-subtitle,
 .tag-page .post-subtitle {
-font-size: 14px;
-margin-top: 0;
-margin-bottom: 25px;
-line-height: 1.5em;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 1.5em;
 }
 #blog .year,
 .tag-page .year {
-font-size: 18px;
-position: relative;
-right: 100px;
-color: rgba(0, 0, 0, 0.5);
-width: 100px;
-margin-bottom: -24px;
+  font-size: 18px;
+  position: relative;
+  right: 100px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  margin-bottom: -24px;
 }
 #blog #y2017.year,
 .tag-page #y2017.year,
 #blog #y2018.year,
 .tag-page #y2018.year {
-margin-top: 0px;
+  margin-top: 0px;
 }
 #blog ul#tag-nav,
 .tag-page ul#tag-nav {
-padding: 0 0 30px 0;
-line-height: 1.3em;
+  padding: 0 0 30px 0;
+  line-height: 1.3em;
 }
 #blog ul#tag-nav span,
 .tag-page ul#tag-nav span {
-font-size: 14px;
-display: inline-block;
-padding-right: 15px;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 15px;
 }
 #blog ul#tag-nav li,
 .tag-page ul#tag-nav li {
-display: inline;
-padding-right: 10px;
+  display: inline;
+  padding-right: 10px;
 }
 #blog ul#tag-nav li a,
 .tag-page ul#tag-nav li a {
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 #blog #more,
 .tag-page #more {
-    font-size: 15px;
-    padding-top: 40px;
+  font-size: 15px;
+  padding-top: 40px;
 }
 #blog #more a,
 .tag-page #more a {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .tag-page h2 {
     font-size: 26px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);

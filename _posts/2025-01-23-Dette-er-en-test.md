@@ -1,18 +1,25 @@
 ---
 layout: default
-title:  "Dette er en test!"
+title:  "Matrices inside of a neural network: Visual explanation"
 date:   2025-01-08 17:12:00 +0100
-categories: test
-subtitle: Således får jeg testet dette lårt.  
+categories: machine-learning
+subtitle: The basics of the math inside of a neural network. 
 ---
 
-*Så håber vi fandeme det virker.*
 
-## Dette er en titel :)
+In the spirit of 3blue1brown, deep learning can be explained visually. This certainly helps me in my understanding; for my own sake, I decided to write down a simple example of a single neural network training phase. 
 
-**Dette er fed skrift**
+### Before we start
 
+First, here is the terminology we're going to use. 
 
+...
 
+---
 
+$
+2+2=4
+$
+
+$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
 
