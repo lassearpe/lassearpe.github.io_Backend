@@ -17,7 +17,7 @@ gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem "jekyll-feed" # for rss, maybe remove.
   gem "jekyll-scholar"
 	# gem "jekyll-sitemap"
 	# gem "jekyll-katex"
