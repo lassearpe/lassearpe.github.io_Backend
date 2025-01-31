@@ -31,6 +31,9 @@ plugins:
   - jekyll-feed
   - jekyll-katex
 
+kramdown:
+  math_engine: katex
+
 katex:
   js_path: "assets"  # Path used to search for katex.min.js
   rendering_options:

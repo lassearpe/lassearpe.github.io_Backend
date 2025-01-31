@@ -4,6 +4,7 @@ title:  "Matrices inside of a neural network: Visual explanation"
 date:   2025-01-08 17:12:00 +0100
 categories: machine-learning
 subtitle: The basics of the math inside of a neural network. 
+katex: true
 ---
 
 
