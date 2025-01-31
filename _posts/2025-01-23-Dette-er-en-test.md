@@ -18,10 +18,8 @@ First, here is the terminology we're going to use.
 
 ---
 
-{% katex %}
-2+2=4
-{% endkatex %}
 
-{% katex display %}
+$2+2=4$
+
 \begin{pmatrix} a & b \\ c & d \end{pmatrix}
-{% endkatex %}
+
