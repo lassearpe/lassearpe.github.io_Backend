@@ -20,11 +20,10 @@ First, here is the terminology we're going to use.
 
 {% katex %}
 c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
 
+{% katex display %}
 \begin{pmatrix} a & b \\ c & d \end{pmatrix}
-
-
-
 {% endkatex %}
 
 
