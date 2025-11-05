@@ -10,6 +10,7 @@ html {
 }
 body {
     margin: 0;  
+    font-size: 125%;
 }
 
 .wrap {
@@ -92,12 +93,12 @@ h1 {
     font-family: -apple-system, Helvetica, arial, sans-serif;
 }
 .front-matter .bylines .byline h3 {
-    font-size: 9px;
+    font-size: 12px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
 }
 .front-matter .bylines .byline p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.6em;
 }
 .front-matter-image {
