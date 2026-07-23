@@ -1,0 +1,50 @@
+    <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lasse Arpe Kristensen</title>
+<head><meta name="description" content="Lasse Arpe Kristensen is a computer science student in Denmark." />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta name="keywords" content="computer science, machine learning">
+<meta name="author" content="Lasse Arpe Kristensen">
+<link rel="stylesheet" href="assets/main.css"/>
+</head>
+
+<body>
+
+    <header>
+    <h1>Lasse Arpe Kristensen</h1>
+    <p class="subtle">
+      Computer Science MSc. Student at University of Southern Denmark
+    </p>
+        <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div id='blog' class='wrap'>
+        <div id='posts' class='section'>
+            {% for post in site.posts %}
+                <div class='post-row'> 
+                    <p class='post-title'>
+                        <a href="{{ post.url }}">
+                            {{ post.title }}
+                        </a>
+                    </p>
+                    <p class='post-date'>
+                        {{ post.date | date_to_long_string }}
+                    </p>
+                </div>
+                <p class='post-subtitle'>
+                    {{ post.subtitle }}
+                </p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</body>
