@@ -16,11 +16,20 @@ title: blog
 </head>
 
 <body>
-    <div class="nav">
-        <ul class="wrap">
-            <li><a href="../">Home</a></li>
-        </ul>
-    </div>
+    <header>
+    <h1>Lasse Arpe Kristensen</h1>
+    <p class="subtle">
+      Computer Science MSc. Student at University of Southern Denmark
+    </p>
+        <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
     <div id='blog' class='wrap'>
         <div id='posts' class='section'>
             {% for post in site.posts %}
